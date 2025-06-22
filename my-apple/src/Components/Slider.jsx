@@ -50,7 +50,7 @@ function Slider() {
           <button className=" md:block bg-white text-black px-4 py-2 md:px-8 md:py-2 md:text-xl md:font-bold rounded-full shadow hover:bg-blue-100 text-sm font-semibold transition">
             Preview
           </button>
-          <span className="text-white  md:block md:text-xl font-light mt-2 md:mt-0 md:font-medium md:text-white">
+          <span className=" text-black md:block md:text-xl font-light mt-2 md:mt-0 md:font-medium md:text-white">
             Watch it on Apple TV+
           </span>
         </div>
