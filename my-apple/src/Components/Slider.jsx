@@ -37,7 +37,7 @@ function Slider() {
 
   return (
     <div className="flex flex-col items-center">
-      {/* 🔲 Slider box */}
+     
       <div className="relative w-full h-[680px] overflow-hidden rounded-xl shadow-xl">
         <img
           src={images[current]}
@@ -45,7 +45,7 @@ function Slider() {
           alt="slide"
         />
 
-        {/* 📺 Button + Text container */}
+       
         <div className="absolute bottom-5 left-5 flex flex-col md:flex-row md:items-center md:gap-4">
           <button className="hidden md:block bg-white text-blue-600 px-4 py-2 md:px-8 md:py-2 md:text-xl md:font-bold rounded-full shadow hover:bg-blue-100 text-sm font-semibold transition">
             Preview
@@ -56,7 +56,7 @@ function Slider() {
         </div>
       </div>
 
-      {/* ⬤ Dot indicators BELOW the slider */}
+    
       <div className="mt-4 flex gap-2 z-10">
         {images.map((_, i) => (
           <div
