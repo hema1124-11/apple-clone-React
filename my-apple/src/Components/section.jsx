@@ -1,20 +1,33 @@
 function Section() {
   return (
-    <div className="w-full px-4 py-8 space-y-6">
+    <>
+    <div className="w-full ">
+  <div className="w-full text-center m-10 relative "> 
     
-      <div className="w-full">
-        <div className="w-full text-center ">
-          <img src="macst3.jpg" alt="Row 5 - Laptop" className="hidden relative md:block w-full max-h-[600px] object-fit" />
-          <img src="macst1.jpg" alt="Row 5 - Mobile" className="block md:hidden w-full max-h-[500px] object-cover" />
-          <div className="mt-4 flex justify-center">
-            <button className="text-black bg-white px-6 py-2 rounded-xl  absolute  md:-bottom-145 -bottom-85 text-sm  hover:bg-blue-100 hover:text-blue-700 active:bg-blue-200 transition duration-200">
-              Learn More
-            </button>
-          </div>
-        </div>
-      </div>
+    <img
+      src="macst3.jpg"
+      alt="Row 5 - Laptop"
+      className="hidden md:block w-full max-h-[600px] object-fit"
+    />
 
-      {/* ✅ Row 1 - Single Image (Full Width) */}
+    
+    <img
+      src="macst1.jpg"
+      alt="Row 5 - Mobile"
+      className="block md:hidden w-full max-h-[500px] object-cover"
+    />
+
+    
+    <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2">
+      <button className="text-black bg-white px-6 py-2 rounded-xl text-sm hover:bg-blue-100 hover:text-blue-700 active:bg-blue-200 transition duration-200">
+        Learn More
+      </button>
+    </div>
+  </div>
+</div>
+
+
+      
       <div className="w-full bg-gradient-to-r from-blue-200 to-blue-100 p-6 rounded-xl shadow-md">
         <div className="md:w-[70%] mx-auto text-center md:text-left">
           <img src="seclap.jpg" alt="Row 1 - Laptop" className="hidden md:block w-full max-h-[480px] object-contain" />
@@ -31,7 +44,7 @@ function Section() {
       </div>
 
       {/* ✅ Row 2 */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-center">
+      <div className="grid grid-cols-1 m-6 md:grid-cols-2 gap-6 text-center">
         <div className="bg-gradient-to-br from-blue-100 to-blue-50 p-4 rounded-xl shadow-md text-center md:text-left">
           <img src="lapgi.jpg" alt="Row 2 - Laptop" className="hidden md:block w-full max-h-[550px] object-contain" />
           <img src="secgi.jpg" alt="Row 2 - Mobile" className="block md:hidden w-full max-h-[550px] object-contain" />
@@ -57,7 +70,7 @@ function Section() {
       </div>
 
       {/* ✅ Row 3 */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 m-6 md:grid-cols-2 gap-6">
         <div className="bg-gradient-to-br from-blue-100 to-blue-50 p-4 rounded-xl shadow-md text-center ">
           <img src="lapblack.jpg" alt="Row 3 - Laptop" className="hidden md:block w-full max-h-[550px] object-contain" />
           <img src="secblack.jpg" alt="Row 3 - Mobile" className="block md:hidden w-full max-h-[550px] object-contain" />
@@ -86,7 +99,7 @@ function Section() {
       </div>
 
       {/* ✅ Row 4 */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">
+      <div className="grid grid-cols-1 m-6 md:grid-cols-2 gap-6 ">
         <div className="bg-gradient-to-br from-blue-100 to-blue-50 p-4 rounded-xl shadow-md text-center ">
           <img src="lapairpods.jpg" alt="Row 4 - Laptop" className="hidden md:block w-full max-h-[550px] object-contain " />
           <img src="secair.jpg" alt="Row 4 - Mobile" className="block md:hidden w-full max-h-[550px] object-contain" />
@@ -110,8 +123,9 @@ function Section() {
           </div>
         </div>
       </div>
-    </div>
-  );
+    
+
+</>);
 }
 
 export default Section;
