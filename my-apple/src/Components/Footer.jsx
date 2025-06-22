@@ -43,7 +43,7 @@ function Footer() {
   ];
 
   return (
-    <footer className="bg-gray-100 mt-20 px-4 md:px-16 py-10 text-xs text-gray-700 border-t border-gray-300">
+    <footer className="bg-gray-100 mt-10 px-4 md:px-16 py-10 text-xs text-gray-700 border-t border-gray-300">
         <p className="mb-5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quis veniam rerum harum sapiente, atque unde fugit mollitia tenetur minus aliquam cumque velit, asperiores, incidunt eligendi est quas. Facere amet labore natus alias, laborum obcaecati corporis quasi repellendus libero ducimus. Delectus accusantium quaerat nisi repellat. Beatae dolore quo nemo quibusdam eligendi cupiditate dolor voluptatem doloribus cum voluptatum modi deleniti incidunt, vitae ullam sint omnis expedita eum excepturi numquam nesciunt libero? Corporis ipsum numquam natus suscipit enim iste modi necessitatibus, porro autem amet cumque ipsam accusantium odit quisquam quod animi inventore similique tempore est ipsa vel? Nobis tempore atque maiores asperiores?</p> <div className="grid grid-cols-2 md:grid-cols-6 gap-8">
 
         {footerLinks.map((section, i) => (

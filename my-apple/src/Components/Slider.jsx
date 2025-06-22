@@ -1,17 +1,17 @@
 import { useEffect, useState } from "react";
 
 const desktopImages = [
-  "/coorlap.jpg",
-  "/frndslap.jpg",
-  "/silolap.jpg",
-  "/youthlap.jpg",
+  "coorlap.jpg",
+  "frndslap.jpg",
+  "silolap.jpg",
+  "youthlap.jpg",
 ];
 
 const mobileImages = [
-  "/coormob.jpg",
-  "/silomob.jpg",
-  "/youthmob.jpg",
-  "/frndsmob.jpg",
+  "coormob.jpg",
+  "silomob.jpg",
+  "youthmob.jpg",
+  "frndsmob.jpg",
 ];
 
 function Slider() {
@@ -38,7 +38,7 @@ function Slider() {
   return (
     <div className="flex flex-col items-center">
      
-      <div className="relative w-full h-[680px] overflow-hidden rounded-xl shadow-xl">
+      <div className="relative w-full h-[680px] overflow-hidden rounded-xl ">
         <img
           src={images[current]}
           className="w-full h-full object-contain md:object-cover transition duration-500 ease-in-out"
@@ -46,11 +46,11 @@ function Slider() {
         />
 
        
-        <div className="absolute bottom-5 left-5 flex flex-col md:flex-row md:items-center md:gap-4">
-          <button className="hidden md:block bg-white text-blue-600 px-4 py-2 md:px-8 md:py-2 md:text-xl md:font-bold rounded-full shadow hover:bg-blue-100 text-sm font-semibold transition">
+        <div className="absolute bottom-8 md:bottom-5 left-5 flex flex-row md:items-center gap-4">
+          <button className=" md:block bg-white text-black px-4 py-2 md:px-8 md:py-2 md:text-xl md:font-bold rounded-full shadow hover:bg-blue-100 text-sm font-semibold transition">
             Preview
           </button>
-          <span className="text-white hidden md:block md:text-xl font-light mt-2 md:mt-0 md:font-medium md:text-white">
+          <span className="text-white  md:block md:text-xl font-light mt-2 md:mt-0 md:font-medium md:text-white">
             Watch it on Apple TV+
           </span>
         </div>
@@ -62,8 +62,8 @@ function Slider() {
           <div
             key={i}
             onClick={() => setCurrent(i)}
-            className={`w-3 h-3 rounded-full cursor-pointer transition ${
-              i === current ? "bg-blue-600" : "bg-gray-300"
+            className={`w-2 h-2 rounded-full cursor-pointer transition ${
+              i === current ? "bg-gray-600" : "bg-gray-300"
             }`}
           ></div>
         ))}
