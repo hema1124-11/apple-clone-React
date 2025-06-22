@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className="relative w-[80%] mx-auto my-6 overflow-hidden md:w-full h-[400px] flex md:h-[550px] px-4 md:px-10">
+    <div className="relative w-[90%] mx-auto my-6 overflow-hidden md:w-full h-[400px] flex md:h-[550px] px-4 md:px-10">
       
       <video
         src="appleee.mp4"

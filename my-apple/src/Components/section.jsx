@@ -7,7 +7,7 @@ function Section() {
     <img
       src="macst3.jpg"
       alt="Row 5 - Laptop"
-      className="hidden md:block w-full max-h-[550px] object-fit"
+      className="hidden md:block w-full max-h-[700px] object-fit"
     />
 
     
@@ -44,7 +44,7 @@ function Section() {
       </div>
 
       {/* ✅ Row 2 */}
-      <div className="grid grid-cols-1 m-6 md:grid-cols-2 gap-6 text-center">
+      <div className="grid grid-cols-1 my-6 md:grid-cols-2 gap-6 text-center">
         <div className="bg-gradient-to-br from-blue-100 to-blue-50 p-4 rounded-xl shadow-md text-center md:text-left">
           <img src="lapgi.jpg" alt="Row 2 - Laptop" className="hidden md:block w-full max-h-[550px] object-contain" />
           <img src="secgi.jpg" alt="Row 2 - Mobile" className="block md:hidden w-full max-h-[550px] object-contain" />
@@ -70,7 +70,7 @@ function Section() {
       </div>
 
       {/* ✅ Row 3 */}
-      <div className="grid grid-cols-1 m-6 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 my-6 md:grid-cols-2 gap-6">
         <div className="bg-gradient-to-br from-blue-100 to-blue-50 p-4 rounded-xl shadow-md text-center ">
           <img src="lapblack.jpg" alt="Row 3 - Laptop" className="hidden md:block w-full max-h-[550px] object-contain" />
           <img src="secblack.jpg" alt="Row 3 - Mobile" className="block md:hidden w-full max-h-[550px] object-contain" />
@@ -99,7 +99,7 @@ function Section() {
       </div>
 
       {/* ✅ Row 4 */}
-      <div className="grid grid-cols-1 m-6 md:grid-cols-2 gap-6 ">
+      <div className="grid grid-cols-1 my-6 md:grid-cols-2 gap-6 ">
         <div className="bg-gradient-to-br from-blue-100 to-blue-50 p-4 rounded-xl shadow-md text-center ">
           <img src="lapairpods.jpg" alt="Row 4 - Laptop" className="hidden md:block w-full max-h-[550px] object-contain " />
           <img src="secair.jpg" alt="Row 4 - Mobile" className="block md:hidden w-full max-h-[550px] object-contain" />
