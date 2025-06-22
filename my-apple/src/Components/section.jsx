@@ -1,13 +1,13 @@
 function Section() {
   return (
     <>
-    <div className="w-full ">
-  <div className="w-full text-center m-10 relative "> 
+    <div className="w-full overflow-hidden ">
+  <div className="w-full text-center my-10 relative "> 
     
     <img
       src="macst3.jpg"
       alt="Row 5 - Laptop"
-      className="hidden md:block w-full max-h-[600px] object-fit"
+      className="hidden md:block w-full max-h-[550px] object-fit"
     />
 
     
@@ -19,7 +19,7 @@ function Section() {
 
     
     <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2">
-      <button className="text-black bg-white px-6 py-2 rounded-xl text-sm hover:bg-blue-100 hover:text-blue-700 active:bg-blue-200 transition duration-200">
+      <button className="text-black bg-white px-6 py-2 rounded-xl text-xs md:text-sm hover:bg-blue-100 hover:text-blue-700 active:bg-blue-200 transition duration-200">
         Learn More
       </button>
     </div>
